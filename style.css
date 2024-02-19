@@ -1021,7 +1021,7 @@ button.arrow svg {
   margin: 10px;
 }
 /* idhar tha .projects */
-.cards{
+.cards {
   padding: 3rem 0;
 }
 
@@ -1353,7 +1353,7 @@ h2 {
   }
 }
 
-.lolhovers{
+.lolhovers {
   transition: transform 0.5s;
 
   &::after {
@@ -1365,7 +1365,7 @@ h2 {
     transition: opacity 2s cubic-bezier(0.165, 0.84, 0.44, 1);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.15);
-      border-radius: 25px;
+    border-radius: 25px;
     content: "";
     opacity: 0;
     z-index: -1;
@@ -1382,8 +1382,7 @@ h2 {
   }
 }
 
-
-.bookbutton{
+.bookbutton {
   width: 160px;
   height: 58px;
   background-color: #244d4d;
@@ -1393,4 +1392,7 @@ h2 {
   border-radius: 20px;
   border: 1px solid white;
   margin-top: 20px;
+}
+.footer-left h3{
+  font-family: "Playfair Display", serif;
 }
