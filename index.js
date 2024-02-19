@@ -36,8 +36,3 @@ function sliderPrevNext(options) {
   });
 
 
-function Removebg() {
-    const element = document.getElementById("herobg");
-    element.remove();
-}
-
