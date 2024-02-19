@@ -1399,5 +1399,15 @@ h2 {
 .logosahil{
   width: 86px;
   height: 86px;
-  margin-top: 14px;
+  margin-top: 10px;
+}
+.rowlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+svg{
+  margin-top: 12px;
 }
