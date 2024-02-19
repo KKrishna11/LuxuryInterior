@@ -1020,8 +1020,8 @@ button.arrow svg {
   border: 1px solid black;
   margin: 10px;
 }
-.cards,
-.project {
+/* idhar tha .projects */
+.cards{
   padding: 3rem 0;
 }
 
@@ -1383,3 +1383,14 @@ h2 {
 }
 
 
+.bookbutton{
+  width: 160px;
+  height: 58px;
+  background-color: #244d4d;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
