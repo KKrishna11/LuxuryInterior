@@ -54,7 +54,7 @@ nav.top-nav ul.links {
 nav.top-nav a.logo h4 {
   margin: 0;
   font-size: 26px;
-  color: #244d4d;
+  color: #500F05;
 }
 
 nav.top-nav .search-button-container {
@@ -87,7 +87,7 @@ nav.top-nav .search-button-container form input[type="text"] {
   height: 30px;
   background-color: #fff;
   padding: 5px 10px;
-  border: solid 2px #244d4d;
+  border: solid 2px #500F05;
 }
 
 nav.top-nav button.search,
@@ -113,7 +113,7 @@ nav.top-nav ul.links li + li {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: #fff;
   height: 100%;
   width: 90%;
@@ -167,7 +167,7 @@ body.open-menu .close-menu {
   margin: 70px 0;
   margin-left: calc(-1 * var(--container-pad));
   margin-right: -220px;
-  background-color: #244d4d;
+  background-color: #500F05;
   max-width: 370px;
   color: #fff;
   flex: 1;
@@ -218,7 +218,7 @@ body.open-menu .close-menu {
   bottom: -23px;
   width: 87px;
   height: 87px;
-  outline: solid 2px #244d4d;
+  outline: solid 2px #500F05;
   z-index: -1;
 }
 
@@ -247,7 +247,7 @@ button.box-arrow-down {
   padding: 0;
   width: 125px;
   height: 125px;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: #fff;
   cursor: pointer;
 }
@@ -360,12 +360,12 @@ button.arrow svg {
 .section-2 a.learn-more {
   padding: 10px 26px;
   line-height: 40px;
-  border: solid 1px #244d4d;
+  border: solid 1px #500F05;
   margin: 9px 0 0;
   display: inline-block;
   font-size: 16.5px;
   font-weight: 700;
-  color: #244d4d;
+  color: #500F05;
   position: relative;
 }
 
@@ -447,7 +447,7 @@ button.arrow svg {
   height: 70px;
   font-size: 22px;
   font-weight: 700;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -502,7 +502,7 @@ button.arrow svg {
 }
 
 .section-4 .title .arrows button.arrow-right {
-  color: #244d4d;
+  color: #500F05;
   margin-left: 14px;
 }
 
@@ -519,7 +519,7 @@ button.arrow svg {
 }
 
 .section-4 .slider .items .item {
-  background-color: #244d4d;
+  background-color: #500F05;
   padding: 60px 50px 60px 60px;
   box-sizing: border-box;
   position: relative;
@@ -657,7 +657,7 @@ button.arrow svg {
   border: 0;
   padding: 0;
   margin: 0;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: #fff;
   font-family: inherit;
   width: 170px;
@@ -787,7 +787,7 @@ button.arrow svg {
 
   .hero .title {
     margin-right: -50%;
-    background-color: #244d4de3;
+    background-color: #500F05e3;
   }
 
   .hero {
@@ -1034,7 +1034,7 @@ button.arrow svg {
   padding: 2rem;
   border-radius: 25px;
   text-wrap: wrap;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: white;
 }
 h4 {
@@ -1385,7 +1385,7 @@ h2 {
 .bookbutton {
   width: 160px;
   height: 58px;
-  background-color: #244d4d;
+  background-color: #500F05;
   color: white;
   padding: 0%;
   margin: 0%;

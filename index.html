@@ -1,145 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxhil Space</title>
-    <link rel="icon" type="image/x-icon" href="./src/newlogo.png">
-    <script src="index.js" defer></script>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js"></script>
-  </head>
-  <body>
-    <!-- https://dribbble.com/shots/14531032-Luxterior-Interior-Landing-Page -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxhil Space</title>
+  <link rel="icon" type="image/x-icon" href="./src/newlogo.png">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <div class="container">
-      <nav class="top-nav" id="mynavbar">
-        <div class="rowlogo">
-          <img  class="logosahil"         src="./src/newlogo.png" alt="">
-          <a href="#" class="logo"><h4>Luxhil Space</h4></a>
-        </div>
-        <ul class="links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#directabout">About</a></li>
-          <li><a href="#directprojects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li><a href="https://wa.me/918591193727">Get Your Quote</a></li>
-        </ul>
-        <div class="menu-button-container">
-          <button
-            class="menu"
-            aria-label="Toggle Menu"
-            onclick="document.body.classList.toggle('open-menu')"
-          >
-            <svg
-              width="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-            >
-              <path
-                d="
+  <script src="https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js"></script>
+</head>
+
+<body>
+  <!-- https://dribbble.com/shots/14531032-Luxterior-Interior-Landing-Page -->
+
+  <div class="container">
+    <nav class="top-nav" id="mynavbar">
+      <div class="rowlogo">
+        <img class="logosahil" src="./src/newlogo.png" alt="">
+        <a href="#" class="logo">
+          <h4>Luxhil Space</h4>
+        </a>
+      </div>
+      <ul class="links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#directabout">About</a></li>
+        <li><a href="#directprojects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="https://wa.me/918591193727">Get Your Quote</a></li>
+      </ul>
+      <div class="menu-button-container">
+        <button class="menu" aria-label="Toggle Menu" onclick="document.body.classList.toggle('open-menu')">
+          <svg width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="
                      M 3 6 h 12
                      M 3 12 h 18
                      M 9 18 h 12
-                     "
-              />
-            </svg>
-          </button>
-        </div>
-      </nav>
-      <div
-        class="close-menu"
-        onclick="document.body.classList.remove('open-menu')"
-      ></div>
-      <div class="mobile-menu">
-        <ul class="links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#directabout">About</a></li>
-          <li><a href="#directprojects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-          <li><a href="https://wa.me/918591193727">Get Your Quote</a></li>
-        </ul>
-      </div>
-      <div class="hero" id="hero">
-        <div class="title">
-          <svg width="100%" height="100%">
-            <pattern
-              id="pattern-circles"
-              x="0"
-              y="0"
-              width="16"
-              height="16"
-              patternUnits="userSpaceOnUse"
-            >
-              <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
-            </pattern>
-            <rect
-              x="0"
-              y="0"
-              width="100%"
-              height="100%"
-              fill="url(#pattern-circles)"
-            ></rect>
+                     " />
           </svg>
-          <h1>Designing Your Dreams into Tangible Beauty Spaces</h1>
-          <p>Our Commitment to Designing Your Dreams.</p>
-        </div>
-        <div class="hero-images" id="herobg">
-          <div class="images">
-            <div>
-              <img
-                alt="Image"
-                data-src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?auto=format&fit=crop&w=990&h=700&q=80"
-                width="100%"
-                height="100%"
-              />
-            </div>
-            <div>
-              <img
-                alt="Image"
-                data-src="https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=990&h=700&q=80"
-                width="100%"
-                height="100%"
-              />
-            </div>
-            <div>
-              <img
-                alt="Image"
-                data-src="https://images.unsplash.com/photo-1592247350271-c5efb34dd967?auto=format&fit=crop&w=990&h=700&q=80"
-                width="100%"
-                height="100%"
-              />
-            </div>
+        </button>
+      </div>
+    </nav>
+    <div class="close-menu" onclick="document.body.classList.remove('open-menu')"></div>
+    <div class="mobile-menu">
+      <ul class="links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#directabout">About</a></li>
+        <li><a href="#directprojects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="https://wa.me/918591193727">Get Your Quote</a></li>
+      </ul>
+    </div>
+    <div class="hero" id="hero">
+      <div class="title">
+        <!-- <svg width="100%" height="100%">
+          <pattern id="pattern-circles" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+            <circle cx="2" cy="2" r="2" fill="currentColor"></circle>
+          </pattern>
+          <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+        </svg> -->
+        <h1>Designing Your Dreams into Tangible Beauty Spaces</h1>
+        <p>Our Commitment to Designing Your Dreams.</p>
+      </div>
+      <div class="hero-images" id="herobg">
+        <div class="images">
+          <div>
+            <img alt="Image"
+              data-src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?auto=format&fit=crop&w=990&h=700&q=80"
+              width="100%" height="100%" />
           </div>
-          <button class="box-arrow-down" aria-label="Next Slider">
-            <svg
-              width="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <line x1="12" y1="5" x2="12" y2="19"></line>
-              <polyline points="18 13 12 19 6 13"></polyline>
-            </svg>
-          </button>
-          <div class="controls">
-            <!-- <button class="arrow arrow-up" aria-label="Prev Slider">
+          <div>
+            <img alt="Image"
+              data-src="https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=990&h=700&q=80"
+              width="100%" height="100%" />
+          </div>
+          <div>
+            <img alt="Image"
+              data-src="https://images.unsplash.com/photo-1592247350271-c5efb34dd967?auto=format&fit=crop&w=990&h=700&q=80"
+              width="100%" height="100%" />
+          </div>
+        </div>
+        <button class="box-arrow-down" aria-label="Next Slider">
+          <svg width="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="18 13 12 19 6 13"></polyline>
+          </svg>
+        </button>
+        <div class="controls">
+          <!-- <button class="arrow arrow-up" aria-label="Prev Slider">
               <svg
                 width="24"
                 viewBox="0 0 24 24"
@@ -153,7 +106,7 @@
               </svg>
             </button> -->
 
-            <!-- <button class="arrow arrow-down" aria-label="Next Slider">
+          <!-- <button class="arrow arrow-down" aria-label="Next Slider">
               <svg
                 width="24"
                 viewBox="0 0 24 24"
@@ -167,89 +120,101 @@
               </svg>
             </button>  -->
 
-            <!-- add icons -->
+          <!-- add icons -->
 
-            <div class="numbers"></div>
-          </div>
+          <div class="numbers"></div>
         </div>
       </div>
-      <section class="cards column grid container" id="about">
-        <div class="lolhovers">
-          <h4>Personalised Design</h4>
-          <p class="lolp">
-            Crafting Success with Precision and Artistry, Unveiling Achievements
-            Through Meticulous Planning and Seamless Execution.
-          </p>
-        </div>
+    </div>
+    <section class="cards column grid container" id="about">
+      <div class="lolhovers">
+        <h4>Personalised Design</h4>
+        <p class="lolp">
+          Crafting Success with Precision and Artistry, Unveiling Achievements
+          Through Meticulous Planning and Seamless Execution.
+        </p>
+      </div>
 
-        <div class="lolhovers">
-          <h4>Best Quality Materials</h4>
-          <p>
-            Guiding Dreams to Reality with Precision and Purpose, Each Step
-            Unveiling the Tapestry of Achievements and Aspirations
-          </p>
-        </div>
+      <div class="lolhovers">
+        <h4>Best Quality Materials</h4>
+        <p>
+          Guiding Dreams to Reality with Precision and Purpose, Each Step
+          Unveiling the Tapestry of Achievements and Aspirations
+        </p>
+      </div>
 
-        <div class="lolhovers">
-          <h4>10 years Warranty</h4>
-          <p>
-            Infusing Precision and Artistry to Transform Interior Visions into
-            Stunning, Achievable Realities.
-          </p>
+      <div class="lolhovers">
+        <h4>10 years Warranty</h4>
+        <p>
+          Infusing Precision and Artistry to Transform Interior Visions into
+          Stunning, Achievable Realities.
+        </p>
+      </div>
+    </section>
+    <section class="section-2" id="directabout">
+      <div class="row">
+        <div class="col">
+          <img alt="Image"
+            src="https://images.pexels.com/photos/905198/pexels-photo-905198.jpeg?auto=compress&dpr=1&w=525"
+            width="100%" height="100%" />
         </div>
-      </section>
-      <section class="section-2" id="directabout">
-        <div class="row">
-          <div class="col">
-            <img
-              alt="Image"
-              src="https://images.pexels.com/photos/905198/pexels-photo-905198.jpeg?auto=compress&dpr=1&w=525"
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="col centercontent">
-            <h2>We Provide You The Best Experience</h2>
-            <p>
-              You don't have to worry about the results because all of these
-              interiors are made by people who are professionals in their fields
-              with an elegant and luxurious style and with premium quality
-              materials.
-            </p>
-            <ul>
-              <li>
-                <b>3</b>
-                <span>Years Experience</span>
-              </li>
-              <li>
-                <b>100+</b>
-                <span>Customers</span>
-              </li>
-              <li>
-                <b>75</b>
-                <span>Interior Design</span>
-              </li>
-            </ul>
-            <!-- <a href="https://wa.me/918591193727" class="section-2 learn-more">
+        <div class="col centercontent">
+          <h2>We Provide You The Best Experience</h2>
+          <!-- <p>
+            You don't have to worry about the results because all of these
+            interiors are made by people who are professionals in their fields
+            with an elegant and luxurious style and with premium quality
+            materials.
+          </p> -->
+
+          <p>
+            Luxhil Space is more than just a company; it's a vision brought to life-a place where dreams are transformed
+            into reality. Founded by Sahil Shaikh, a pioneering individual accomplished in the field of interior design,
+            the company was born out of a passion for creating elegant, functional, and stylish interiors. On his
+            journey forward, Sahil joined hands with Sanchit Mhatre, a visionary interior designer who shares the same
+            dedication to excellence.
+<br><br>
+            As a premier interior design company, Luxhil Space specializes in crafting luxurious and personalized
+            environments that reflect the unique personality and needs of each client. From residential and commercial
+            projects to hospitality spaces, Luxhil Space seamlessly combines creative vision with precise execution.
+<br><br>
+            With a keen eye for detail and an unwavering commitment to excellence, Luxhil Space is the ultimate
+            destination for transforming spaces into extraordinary experiences.
+          </p>
+          <ul>
+            <li>
+              <b>3</b>
+              <span>Years Experience</span>
+            </li>
+            <li>
+              <b>100+</b>
+              <span>Customers</span>
+            </li>
+            <li>
+              <b>75</b>
+              <span>Interior Design</span>
+            </li>
+          </ul>
+          <!-- <a href="https://wa.me/918591193727" class="section-2 learn-more">
               Learn more
             </a> -->
-          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="contact row flex container">
-        <div class="contact-content">
-          <h2>We Create The Art Of Stylish Living Stylish</h2>
+    <section class="contact row flex container">
+      <div class="contact-content">
+        <h2>We Create The Art Of Stylish Living Stylish</h2>
 
-          <a href="https://wa.me/918591193727" class="details row">
-            <div class="col">
-              <div>
-                <button class="bookbutton">Book Free Consulation</button>
-              </div>
+        <a href="https://wa.me/918591193727" class="details row">
+          <div class="col">
+            <div>
+              <button class="bookbutton">Book Free Consulation</button>
             </div>
-          </a>
+          </div>
+        </a>
 
-          <!-- <a href="91+922" class="details row">
+        <!-- <a href="91+922" class="details row">
             <div class="row">
               <img
                 class="telephone"
@@ -262,315 +227,250 @@
             </div>
           </a> -->
 
-          <!-- <a href="#" class="learn-more"> Get free estimate </a> -->
-        </div>
-        <div class="contact-img">
-          <img
-            src="https://plus.unsplash.com/premium_photo-1684348962314-64fa628992f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww"
-            alt="maiineseond image"
-          />
-        </div>
-      </section>
-      <section class="project container" id="directprojects">
-        <div class="heading">
-          <h2>Follow Our Projects</h2>
-          <p></p>
-        </div>
-        <div class="project-cards row flex">
-          <a href="#" class="p-card column">
-            <div>
-              <img
-                class="sahil-interior-img"
-                src="./src/living-room-2155353_1280.jpg"
-              />
-            </div>
-            <div class="p-card-content row">
-              <div>
-                <h4>Living Room</h4>
-              </div>
-              <div class="row">
-                <img
-                  class="right"
-                  src="https://www.svgrepo.com/show/27797/right-arrow.svg"
-                  alt="right"
-                />
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="p-card column">
-            <div>
-              <img
-                class="sahil-interior-img"
-                src="./src/kitchen-2165756_1280.jpg"
-              />
-            </div>
-            <div class="p-card-content row">
-              <div>
-                <h4>Modural Kitchen</h4>
-              </div>
-              <div class="row">
-                <img
-                  class="right"
-                  src="https://www.svgrepo.com/show/27797/right-arrow.svg"
-                  alt="right"
-                />
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="p-card column">
-            <div>
-              <img
-                class="sahil-interior-img"
-                src="./src/Master-bedroom-design.jpg"
-              />
-            </div>
-            <div class="p-card-content row">
-              <div>
-                <h4>Master Bedroom</h4>
-              </div>
-              <div class="row">
-                <img
-                  class="right"
-                  src="https://www.svgrepo.com/show/27797/right-arrow.svg"
-                  alt="right"
-                />
-              </div>
-            </div>
-          </a>
-
-          <a href="#" class="p-card column">
-            <div>
-              <img class="sahil-interior-img" src="./src/bathroom.jpg" />
-            </div>
-            <div class="p-card-content row">
-              <div>
-                <h4 class="Bathroom">Bathroom</h4>
-              </div>
-              <div class="row">
-                <img
-                  class="right"
-                  src="https://www.svgrepo.com/show/27797/right-arrow.svg"
-                  alt="right"
-                />
-              </div>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="section-4">
-        <div class="title">
-          <h2>We Our Customers Are Saying</h2>
-          <div class="arrows">
-            <button class="arrow-left" aria-label="Prev Slider">
-              <svg
-                width="36"
-                viewBox="0 0 36 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="26" y1="12" x2="5" y2="12"></line>
-                <polyline points="13 20 5 12 13 4"></polyline>
-              </svg>
-            </button>
-            <button class="arrow-right" aria-label="Next Slider">
-              <svg
-                width="36"
-                viewBox="0 0 36 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <line x1="5" y1="12" x2="31" y2="12"></line>
-                <polyline points="23 4 31 12 23 20"></polyline>
-              </svg>
-            </button>
-          </div>
-        </div>
-        <div class="slider">
-          <div class="items">
-            <div class="item">
-              <h3>
-                Each Part Of Our Design Was Creative And Solution Focused.
-              </h3>
-
-              <p>
-                Being able to work with the exterior is an extraordinary thing
-                they provide excellent service and the results given are also
-                very satisfying by giving an elegant impression.
-              </p>
-
-              <div class="info">
-                <img
-                  alt="Image"
-                  src="./src/testinomial1.jpg"
-                  width="58px"
-                  height="58px"
-                />
-                <div>
-                  <strong>Ashish</strong>
-                  <span>Tilak Nagar</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <h3>From Design To All Went According To Plan And Budget</h3>
-
-              <p>
-                At that time | wanted to make a Beautiful House, then | went to
-                luxhil Space to make the House and after it was finished the
-                results were unexpected. the results given are in accordance
-                with what | want.
-              </p>
-
-              <div class="info">
-                <img
-                  alt="Image"
-                  src="./src/testinomail2.jpg"
-                  width="58px"
-                  height="58px"
-                />
-                <div>
-                  <strong>Tarun</strong>
-                  <span>Subhash Nagar</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <h3>The service provided is very good and friendly</h3>
-
-              <p>
-                Thank you Luxhil Space for your exceptional work and for
-                making my interior design dreams a reality! I will definitely be
-                recommending you to all of my friends and family.
-              </p>
-
-              <div class="info">
-                <img
-                  alt="Image"
-                  src="./src/testinomail3.jpg"
-                  width="58px"
-                  height="58px"
-                />
-                <div>
-                  <strong>Harsh</strong>
-                  <span>Tilak Nagar</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-3">
-        <div class="row">
-          <div class="col">
-            <h2>We Provide The Best Process Experience</h2>
-            <ul>
-              <li>
-                <h3>Briefing</h3>
-                <p>
-                  First thing you determine the concept and model you want, then
-                  choose what colors and materials you want to use in your
-                  Interior Design.
-                </p>
-              </li>
-              <li>
-                <h3>Processing</h3>
-                <p>
-                  When the briefing process is complete and what the client
-                  wants has been achieved. then we carry out the execution of
-                  the desired concept.
-                </p>
-              </li>
-              <li>
-                <h3>Finishing</h3>
-                <p>
-                  After the process is complete, we will immediately carry out
-                  the finishing stage and we do it carefully and make sure there
-                  are no mistakes.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <img
-              alt="Image"
-              src="https://i.suar.me/aV8Ol/m"
-              width="100%"
-              height="100%"
-            />
-          </div>
-        </div>
-      </section>
-
-      <footer class="footer-distributed" id="Contact">
-        <div class="footer-left">
-          <!-- <h3>Luxhil<span> Spaces</span></h3> -->
-          <img class="logosahil" src="./src/newlogo.png" alt="">
-          <p class="footer-links">
-            <a href="#hero" class="link-1">Home</a>
-            <a href="#directabout">About</a>
-            <a href="#directprojects">Projects</a>
-            <a href="#Contact">Contact</a>
-          </p>
-          <span style="color: #e25555"></span>
-          <p class="footer-company-name">
-            Made with
-            <span style="color: #e25555">
-              <a href="https://www.adzeeny.com/">Adzeeny</a>
-            </span>
-            by
-            <a href="https://krishnakushwaha.vercel.app/">Krishna</a>
-          </p>
-        </div>
-
-        <div class="footer-center">
+        <!-- <a href="#" class="learn-more"> Get free estimate </a> -->
+      </div>
+      <div class="contact-img">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1684348962314-64fa628992f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fDB8fHww"
+          alt="maiineseond image" />
+      </div>
+    </section>
+    <section class="project container" id="directprojects">
+      <div class="heading">
+        <h2>Follow Our Projects</h2>
+        <p></p>
+      </div>
+      <div class="project-cards row flex">
+        <a href="#" class="p-card column">
           <div>
-            <i class="fa fa-map-marker"></i>
-            <p><span>Mumbai - Navi Mumbai</span></p>
+            <img class="sahil-interior-img" src="./src/living-room-2155353_1280.jpg" />
           </div>
-
-          <div>
-            <i class="fa fa-phone"></i>
-            <p>8591193727</p>
+          <div class="p-card-content row">
+            <div>
+              <h4>Living Room</h4>
+            </div>
+            <div class="row">
+              <img class="right" src="https://www.svgrepo.com/show/27797/right-arrow.svg" alt="right" />
+            </div>
           </div>
+        </a>
 
+        <a href="#" class="p-card column">
           <div>
-            <i class="fa fa-envelope"></i>
+            <img class="sahil-interior-img" src="./src/kitchen-2165756_1280.jpg" />
+          </div>
+          <div class="p-card-content row">
+            <div>
+              <h4>Modural Kitchen</h4>
+            </div>
+            <div class="row">
+              <img class="right" src="https://www.svgrepo.com/show/27797/right-arrow.svg" alt="right" />
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="p-card column">
+          <div>
+            <img class="sahil-interior-img" src="./src/Master-bedroom-design.jpg" />
+          </div>
+          <div class="p-card-content row">
+            <div>
+              <h4>Master Bedroom</h4>
+            </div>
+            <div class="row">
+              <img class="right" src="https://www.svgrepo.com/show/27797/right-arrow.svg" alt="right" />
+            </div>
+          </div>
+        </a>
+
+        <a href="#" class="p-card column">
+          <div>
+            <img class="sahil-interior-img" src="./src/bathroom.jpg" />
+          </div>
+          <div class="p-card-content row">
+            <div>
+              <h4 class="Bathroom">Bathroom</h4>
+            </div>
+            <div class="row">
+              <img class="right" src="https://www.svgrepo.com/show/27797/right-arrow.svg" alt="right" />
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-4">
+      <div class="title">
+        <h2>We Our Customers Are Saying</h2>
+        <div class="arrows">
+          <button class="arrow-left" aria-label="Prev Slider">
+            <svg width="36" viewBox="0 0 36 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="26" y1="12" x2="5" y2="12"></line>
+              <polyline points="13 20 5 12 13 4"></polyline>
+            </svg>
+          </button>
+          <button class="arrow-right" aria-label="Next Slider">
+            <svg width="36" viewBox="0 0 36 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="31" y2="12"></line>
+              <polyline points="23 4 31 12 23 20"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="items">
+          <div class="item">
+            <h3>
+              Each Part Of Our Design Was Creative And Solution Focused.
+            </h3>
+
             <p>
-              <a href="mailto:spaceluxhil@gmail.com"
-                >spaceluxhil@gmail.com</a
-              >
+              Being able to work with the exterior is an extraordinary thing
+              they provide excellent service and the results given are also
+              very satisfying by giving an elegant impression.
             </p>
+
+            <div class="info">
+              <img alt="Image" src="./src/testinomial1.jpg" width="58px" height="58px" />
+              <div>
+                <strong>Ashish</strong>
+                <span>Tilak Nagar</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <h3>From Design To All Went According To Plan And Budget</h3>
+
+            <p>
+              At that time | wanted to make a Beautiful House, then | went to
+              luxhil Space to make the House and after it was finished the
+              results were unexpected. the results given are in accordance
+              with what | want.
+            </p>
+
+            <div class="info">
+              <img alt="Image" src="./src/testinomail2.jpg" width="58px" height="58px" />
+              <div>
+                <strong>Tarun</strong>
+                <span>Subhash Nagar</span>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <h3>The service provided is very good and friendly</h3>
+
+            <p>
+              Thank you Luxhil Space for your exceptional work and for
+              making my interior design dreams a reality! I will definitely be
+              recommending you to all of my friends and family.
+            </p>
+
+            <div class="info">
+              <img alt="Image" src="./src/testinomail3.jpg" width="58px" height="58px" />
+              <div>
+                <strong>Harsh</strong>
+                <span>Tilak Nagar</span>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="footer-right">
-          <p class="footer-company-about">
-            <span>About the company</span>
-            we create designs that not only make a space look and function
-            better but significantly affect your mood and wellbeing.
+    <section class="section-3">
+      <div class="row">
+        <div class="col">
+          <h2>We Provide The Best Process Experience</h2>
+          <ul>
+            <li>
+              <h3>Briefing</h3>
+              <p>
+                First thing you determine the concept and model you want, then
+                choose what colors and materials you want to use in your
+                Interior Design.
+              </p>
+            </li>
+            <li>
+              <h3>Processing</h3>
+              <p>
+                When the briefing process is complete and what the client
+                wants has been achieved. then we carry out the execution of
+                the desired concept.
+              </p>
+            </li>
+            <li>
+              <h3>Finishing</h3>
+              <p>
+                After the process is complete, we will immediately carry out
+                the finishing stage and we do it carefully and make sure there
+                are no mistakes.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <img alt="Image" src="https://i.suar.me/aV8Ol/m" width="100%" height="100%" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-distributed" id="Contact">
+      <div class="footer-left">
+        <!-- <h3>Luxhil<span> Spaces</span></h3> -->
+        <img class="logosahil" src="./src/newlogo.png" alt="">
+        <p class="footer-links">
+          <a href="#hero" class="link-1">Home</a>
+          <a href="#directabout">About</a>
+          <a href="#directprojects">Projects</a>
+          <a href="#Contact">Contact</a>
+        </p>
+        <span style="color: #e25555"></span>
+        <p class="footer-company-name">
+          Made with
+          <span style="color: #e25555">
+            <a href="https://www.adzeeny.com/">Adzeeny</a>
+          </span>
+          by
+          <a href="https://krishnakushwaha.vercel.app/">Krishna</a>
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Mumbai - Navi Mumbai</span></p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>8591193727</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>
+            <a href="mailto:spaceluxhil@gmail.com">spaceluxhil@gmail.com</a>
           </p>
-
-          <div class="footer-icons">
-            <a href="https://wa.me/918591193727"
-              ><i class="fa fa-whatsapp"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/luxhilspace/?igsh=MWRkNmIyeTQzZDhvMw%3D%3D"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </div>
         </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About the company</span>
+          we create designs that not only make a space look and function
+          better but significantly affect your mood and wellbeing.
+        </p>
+
+        <div class="footer-icons">
+          <a href="https://wa.me/918591193727"><i class="fa fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/luxhilspace/?igsh=MWRkNmIyeTQzZDhvMw%3D%3D"><i
+              class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
